@@ -48,4 +48,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/vivo/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/vivo/proprietary/gps.vivo.so:/system/lib/hw/gps.vivo.so \
-    vendor/htc/vivo/proprietary/libbcc.so:/system/lib/libbcc.so
+    vendor/htc/vivo/proprietary/libbcc.so:/system/lib/libbcc.so 
+
+# Added from LorD ClockaN IceColdSandwich
+PRODUCT_COPY_FILES += \
+    vendor/htc/vivo/apps/wifixmanager.apk:/system/app/wifixmanager.apk \
+    vendor/htc/vivo/apps/modelid_cfg.sh:/system/bin/modelid_cfg.sh \
+    vendor/htc/vivo/apps/audio_effects.conf:/system/etc/audio_effects.conf \
+    vendor/htc/vivo/apps/GooManager_1.3_signed.apk:/system/app/GooManager_1.3_signed.apk
+
+# Patched libsurfaceflinger for rotating arrows credit: st.matt@xda
+PRODUCT_COPY_FILES += \
+    vendor/htc/vivo/proprietary/libsurfaceflinger.so:/system/lib/libsurfaceflinger.so
