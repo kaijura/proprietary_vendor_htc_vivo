@@ -16,7 +16,13 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/vivo/proprietary/libcamera.so:obj/lib/libcamera.so \
+    vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so 
+
+# Added from existz aospx, prebuilt v8 libs
+PRODUCT_COPY_FILES += \
+    vendor/htc/vivo/proprietary/libv8.so:obj/lib/libv8.so \
+    vendor/htc/vivo/proprietary/libv8.so:system/lib/libv8.so
 
 # All the blobs necessary for vivo
 PRODUCT_COPY_FILES += \
@@ -55,8 +61,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/apps/wifixmanager.apk:/system/app/wifixmanager.apk \
     vendor/htc/vivo/apps/modelid_cfg.sh:/system/bin/modelid_cfg.sh \
     vendor/htc/vivo/apps/audio_effects.conf:/system/etc/audio_effects.conf \
-    vendor/htc/vivo/apps/GooManager_1.3_signed.apk:/system/app/GooManager_1.3_signed.apk
+    vendor/htc/vivo/apps/GooManager_1.5.2_signed.apk:/system/app/GooManager.apk \
+    vendor/htc/vivo/apps/ApexLauncher_v1.0.2.apk:/system/app/ApexLauncher.apk
 
-# Patched libsurfaceflinger for rotating arrows credit: st.matt@xda
-PRODUCT_COPY_FILES += \
-    vendor/htc/vivo/proprietary/libsurfaceflinger.so:/system/lib/libsurfaceflinger.so
+# Patched libsurfaceflinger for rotating arrows credit: st.matt@xda Not needed for 4.3+ AOKP, surfaceflinger code has been changed to support
+#PRODUCT_COPY_FILES += \
+#    vendor/htc/vivo/proprietary/libsurfaceflinger.so:/system/lib/libsurfaceflinger.so
