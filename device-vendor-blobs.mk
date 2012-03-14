@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/apps/wifixmanager.apk:/system/app/wifixmanager.apk \
     vendor/htc/vivo/apps/modelid_cfg.sh:/system/bin/modelid_cfg.sh \
     vendor/htc/vivo/apps/audio_effects.conf:/system/etc/audio_effects.conf \
-    vendor/htc/vivo/apps/GooManager_1.5.2_signed.apk:/system/app/GooManager.apk \
+    vendor/htc/vivo/apps/GooManager_1.5.3_signed.apk:/system/app/GooManager.apk \
     vendor/htc/vivo/apps/ApexLauncher_v1.0.2.apk:/system/app/ApexLauncher.apk
 
 # Facelock Libraries
