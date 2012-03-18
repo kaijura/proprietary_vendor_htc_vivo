@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/vivo/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/vivo/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/vivo/proprietary/libEGLES_android.so:/system/lib/egl/libGLES_android.so \
+    vendor/htc/vivo/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     vendor/htc/vivo/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/vivo/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/vivo/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
