@@ -54,8 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/vivo/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/vivo/proprietary/awb_camera:/system/bin/awb_camera \
-    vendor/htc/vivo/proprietary/gps.vivo.so:/system/lib/hw/gps.vivo.so \
-    vendor/htc/vivo/proprietary/libbcc.so:/system/lib/libbcc.so 
+    vendor/htc/vivo/proprietary/gps.vivo.so:/system/lib/hw/gps.vivo.so
 
 # Added from LorD ClockaN IceColdSandwich
 PRODUCT_COPY_FILES += \
